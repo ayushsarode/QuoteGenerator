@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&display=swap");
+
+* {
+  font-family: "Lilita One", cursive;
+  background-image: url(meme.jpg);
+}
+
+.meme-generator {
+  text-align: center;
+}
+
+.meme-generator img {
+  height: 430px;
+  object-fit: cover;
+}
+
+.meme-generator .generate-meme-btn {
+  padding: 8px 24px;
+  border-radius: 5px;
+  margin: 24px 0;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1.5px solid #fff;
+  font-size: 3rem;
+}
+
+.generate-meme-btn {
+  border-color: #000;
+  color: #000;
+  outline: none;
+  background: #fff;
+}
+
+.generate-meme-btn:hover {
+  color: #fff;
+  transition: 0.3s;
+  background-color: #000;
+}
+
+h2 {
+  color: #fff;
+  background: none;
+  letter-spacing: 1.5px;
+}
+
+.meme-generator .meme-author {
+  margin: 8px;
+  background: none;
+  color: #fff;
+}
